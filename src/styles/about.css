@@ -2,7 +2,27 @@
   height: 100vh;
 }
 
+.icon-arrow {
+  height: 30px;
+  animation: pulse 1.5s infinite;
+}
+
 .loader {
   animation: slideFromLeft 1.5s;
+}
+
+
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.25);
+	}
+	100% {
+		transform: scale(1);
+
+	}
 }
 
