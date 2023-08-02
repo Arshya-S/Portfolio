@@ -7,7 +7,7 @@ const Skills = () => {
     <div className="skills-container container-fluid d-flex flex-column justify-content-center" id="skillsId">
       <div className="skills row mt-5">
 
-        <div className="container-fluid col">
+        <div className="skill container-fluid col">
           <h3 className="row justify-content-center text-dark">Languages</h3>
           <div className="container p-4 row justify-content-center">
             <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt=""/>
@@ -28,7 +28,7 @@ const Skills = () => {
 
         </div>
 
-        <div className="container-fluid col">
+        <div className="skill container-fluid col">
 
           <h3 className="row justify-content-center text-dark text-dark">Frameworks & Libraries</h3>
           <div className="container-fluid p-4 row justify-content-center">
@@ -52,7 +52,7 @@ const Skills = () => {
 
         </div>
 
-        <div className="container-fluid col">
+        <div className="skill container-fluid col">
 
           <h3 className="row justify-content-center text-dark text-dark">Dev Tools</h3>
           <div className="container-fluid p-4 row justify-content-center">
