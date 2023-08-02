@@ -33,7 +33,9 @@ function App() {
 
     // Get the element once it's in the DOM
     const aboutElement = document.querySelector('.about-container');
-    const skillsElement = document.querySelector('.skills');
+    const skillOne = document.querySelector('.skill-one');
+    const skillTwo = document.querySelector('.skill-two');
+    const skillThree = document.querySelector('.skill-three');
     const projectOne = document.querySelector('.project-one');
     const projectTwo = document.querySelector('.project-two');
     const projectThree = document.querySelector('.project-three');
@@ -44,9 +46,6 @@ function App() {
     if (aboutElement) {
       observer.observe(aboutElement);
     } 
-    if (skillsElement) {
-      observer.observe(skillsElement);
-    }
     if (projectOne) {
       observer.observe(projectOne);
     }
@@ -59,6 +58,15 @@ function App() {
     if (projectFour) {
       observer.observe(projectFour);
     }
+    if (skillOne) {
+      observer.observe(skillOne);
+    }
+    if (skillTwo) {
+      observer.observe(skillTwo);
+    }
+    if (skillThree) {
+      observer.observe(skillThree);
+    }
     
 
   
@@ -68,9 +76,6 @@ function App() {
       if (aboutElement) {
         observer.unobserve(aboutElement);
       } 
-      if (skillsElement) {
-        observer.unobserve(skillsElement);
-      }
       if (projectOne) {
         observer.unobserve(projectOne);
       }
@@ -82,6 +87,15 @@ function App() {
       }
       if (projectFour) {
         observer.unobserve(projectFour);
+      }
+      if (skillOne) {
+        observer.unobserve(skillOne);
+      }
+      if (skillTwo) {
+        observer.unobserve(skillTwo);
+      }
+      if (skillThree) {
+        observer.unobserve(skillThree);
       }
 
     };

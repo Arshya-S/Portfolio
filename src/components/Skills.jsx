@@ -4,11 +4,11 @@ import "../styles/skills.css"
 const Skills = (props) => {
 
   return (
-    <div className="skills-container container-fluid p-4 d-flex flex-column justify-content-center align-items-center" id="skillsId">
+    <div className="skills-container container-fluid p-5 d-flex flex-column justify-content-center align-items-center" id="skillsId">
       <div className="skills">
-        <div className="skill container-fluid p-4">
+        <div className="skill-one container-fluid p-5">
           <h3 className="row justify-content-center text-dark">Languages</h3>
-          <div className="container-fluid p-4 row justify-content-center">
+          <div className="container-fluid p-2 row justify-content-center">
             <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt=""/>
             <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt=""/>
             <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt=""/>
@@ -20,9 +20,9 @@ const Skills = (props) => {
           </div>
         </div>
 
-        <div className="skill container-fluid p-5">
+        <div className="skill-two container-fluid p-5">
           <h3 className="row justify-content-center text-dark text-dark">Frameworks & Libraries</h3>
-          <div className="container-fluid p-4 row justify-content-center">
+          <div className="container-fluid p- row justify-content-center">
             <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt=""/>
             <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt=""/>
             <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt=""/>
@@ -37,9 +37,9 @@ const Skills = (props) => {
 
         </div>
 
-        <div className="skill container-fluid p-5">
+        <div className="skill-three container-fluid p-5">
           <h3 className="row justify-content-center text-dark text-dark">Dev Tools</h3>
-          <div className="container-fluid p-4 row justify-content-center">
+          <div className="container-fluid p-2 row justify-content-center">
             <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt=""/>
             <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" alt=""/>
             <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original-wordmark.svg" alt=""/>
