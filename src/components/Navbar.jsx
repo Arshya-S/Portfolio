@@ -16,7 +16,7 @@ const Navbar = (props) => {
               <button className="nav-link btn btn-link text-light" onClick={() => props.scrollToElement('skillsId')}>Skills</button>
             </li>
             <li class="nav-item">
-              <button className="nav-link btn btn-link text-light" onClick={() => props.scrollToElement('projectsId')}>Projects</button>
+              <button className="nav-link btn btn-link text-light" onClick={() => props.scrollToElement('project-one')}>Projects</button>
             </li>
             <li class="nav-item">
               <a className="nav-link btn btn-link text-light" href='https://github.com/Arshya-S' target="_blank" rel="noopener noreferrer">Github</a>

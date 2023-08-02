@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Skills from './components/Skills';
-import ProjectsOne from './components/ProjectsOne';
-import ProjectsTwo from './components/ProjectsTwo';
+import ProjectsOne from './components/Projects';
+
 
 // Color theme => https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd
 // Color theme => https://coolors.co/palette/5aa9e6-7fc8f8-f9f9f9-ffe45e-ff6392
@@ -34,8 +34,11 @@ function App() {
     // Get the element once it's in the DOM
     const aboutElement = document.querySelector('.about');
     const skillsElement = document.querySelector('.skills');
-    const projectsElement = document.querySelector('.projects');
-    const projectsTwoElement = document.querySelector('.projects-two');
+    const projectOne = document.querySelector('.project-one');
+    const projectTwo = document.querySelector('.project-two');
+    const projectThree = document.querySelector('.project-three');
+    const projectFour = document.querySelector('.project-four');
+  
 
     // Check if the element was found before observing
     if (aboutElement) {
@@ -44,12 +47,20 @@ function App() {
     if (skillsElement) {
       observer.observe(skillsElement);
     }
-    if (projectsElement) {
-      observer.observe(projectsElement);
+    if (projectOne) {
+      observer.observe(projectOne);
     }
-    if (projectsTwoElement) {
-      observer.observe(projectsTwoElement);
+    if (projectTwo) {
+      observer.observe(projectTwo);
     }
+    if (projectThree) {
+      observer.observe(projectThree);
+    }
+    if (projectFour) {
+      observer.observe(projectFour);
+    }
+    
+
   
 
     // Clean up the observer when the component unmounts
@@ -60,12 +71,19 @@ function App() {
       if (skillsElement) {
         observer.unobserve(skillsElement);
       }
-      if (projectsElement) {
-        observer.unobserve(projectsElement);
+      if (projectOne) {
+        observer.unobserve(projectOne);
       }
-      if (projectsTwoElement) {
-        observer.unobserve(projectsTwoElement);
+      if (projectTwo) {
+        observer.unobserve(projectTwo);
       }
+      if (projectThree) {
+        observer.unobserve(projectThree);
+      }
+      if (projectFour) {
+        observer.unobserve(projectFour);
+      }
+
     };
   }, []); // Empty dependency array ensures this effect runs only once
   
@@ -76,7 +94,7 @@ function App() {
       <About scrollToElement={scrollToElement}/>
       <Skills/>
       <ProjectsOne scrollToElement={scrollToElement}/>
-      <ProjectsTwo/>
+      {/* <ProjectsTwo/> */}
     </div>
   );
 }
