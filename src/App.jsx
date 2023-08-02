@@ -92,7 +92,7 @@ function App() {
     <div className="App">
       <Navbar scrollToElement={scrollToElement}/>
       <About scrollToElement={scrollToElement}/>
-      <Skills/>
+      <Skills scrollToElement={scrollToElement}/>
       <ProjectsOne scrollToElement={scrollToElement}/>
       {/* <ProjectsTwo/> */}
     </div>
