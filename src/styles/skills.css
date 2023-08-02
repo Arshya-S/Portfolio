@@ -5,3 +5,11 @@
 .loader {
   animation: slideFromLeft 1.5s;
 }
+
+
+@media only screen and (max-device-width: 500px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+}

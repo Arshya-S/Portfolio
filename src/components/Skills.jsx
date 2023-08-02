@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div className="container-fluid skills-container d-flex flex-column justify-content-center" id="skillsId">
       <div className="skills row">
-        <div className="col align-items-center justify-content-center">
+        <div className="container-fluid col align-items-center justify-content-center">
           
          
           <h3 className="container mt-5 row justify-content-center text-dark">Languages</h3>

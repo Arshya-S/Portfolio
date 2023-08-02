@@ -2,23 +2,23 @@ import "../styles/projects.css";
 const ProjectsOne = (props) => {
   return(
     <div className="container-fluid projects-container d-flex flex-column justify-content-center align-items-center" id="projectsId">
-      <div className="projects d-flex flex-column justify-content-center align-items-center">
+      <div className="projects d-flex flex-column justify-content-center align-items-center info">
         <div className='container d-flex flex-row align-items-center p-5' >
           <img className="image border border-dark border-2" src='/images/Todo.png' alt=""/>
-          <div className="container">
-            <h2 className="text-dark-emphasis p-4 "><strong>Smart TODO List</strong></h2>
-            <h4 className="text-dark-emphasis p-4 ">TODO list that auto categorizes items</h4>
-            <a href="https://github.com/Arshya-S/Smart-TODO-List" target="_blank" rel="noopener noreferrer" className="btn btn-dark ms-4 p-2" >Github</a>
+          <div className="container side-info">
+            <h2 className="text-dark-emphasis p-4 title"><strong>Smart TODO List</strong></h2>
+            <h4 className="text-dark-emphasis p-4 text">TODO list that auto categorizes items</h4>
+            <a href="https://github.com/Arshya-S/Smart-TODO-List" target="_blank" rel="noopener noreferrer" className="btn btn-dark ms-4 p-2 button" >Github</a>
           </div>
         </div>
 
         
         <div className='container mt-5 d-flex flex-row align-items-center p-5' id="projectsId">
           <img className="image border border-dark border-2" src='/images/photolabs.png' alt=""/>
-          <div className="container">
-            <h2 className="text-dark-emphasis p-4 "><strong>Photolabs</strong></h2>
-            <h4 className="text-dark-emphasis p-4 ">Users manage their photos and interact with other's</h4>
-            <a href="https://github.com/Arshya-S/Photolabs" target="_blank" rel="noopener noreferrer" className="btn btn-dark ms-4 p-2" >Github</a>
+          <div className="container side-info">
+            <h2 className="text-dark-emphasis p-4 title"><strong>Photolabs</strong></h2>
+            <h4 className="text-dark-emphasis p-4 text">Users manage their photos and interact with other's</h4>
+            <a href="https://github.com/Arshya-S/Photolabs" target="_blank" rel="noopener noreferrer" className="btn btn-dark ms-4 p-2 button" >Github</a>
           </div>
         </div>
 
