@@ -1,0 +1,17 @@
+.projects-container{
+  height: 100vh;
+}
+.loader {
+  animation: slideFromLeft 1.5s;
+}
+.image {
+  height: auto;
+  width: 45%;
+}
+.projects-container-two{
+  height: 100vh;
+}
+
+.icon{
+  height: 50px;
+}
