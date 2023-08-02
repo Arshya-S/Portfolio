@@ -1,10 +1,6 @@
 .about-container{
   height: 100vh;
 }
-.down-icon {
-  margin-left: 8px;
-
-}
 
 .loader {
   animation: slideFromLeft 1.5s;

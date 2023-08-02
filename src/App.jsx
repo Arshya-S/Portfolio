@@ -32,7 +32,7 @@ function App() {
     });
 
     // Get the element once it's in the DOM
-    const aboutElement = document.querySelector('.about');
+    const aboutElement = document.querySelector('.about-container');
     const skillsElement = document.querySelector('.skills');
     const projectOne = document.querySelector('.project-one');
     const projectTwo = document.querySelector('.project-two');
