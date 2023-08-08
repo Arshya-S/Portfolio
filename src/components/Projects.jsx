@@ -22,11 +22,11 @@ const ProjectsOne = (props) => {
         </div>
 
         <div className='project-three container-fluid d-flex flex-row align-items-center p-4'>
-          <img className="image border border-dark border-2" src='/images/tweeter.png' alt=""/>
+          <img className="image border border-dark border-2" src='/images/Image_one.png' alt=""/>
           <div className="container-fluid d-flex flex-column justify-content-center align-items-center">
-            <h4 className="text-dark-emphasis p-2 "><strong>Tweeter</strong></h4>
-            <h6 className="description text-dark-emphasis p-2 ">Twitter clone where user's tweet and view other's tweets</h6>
-            <a href="https://github.com/Arshya-S/tweeter" target="_blank" rel="noopener noreferrer" className="btn btn-dark ms-2 p-2" >Github</a>
+            <h4 className="text-dark-emphasis p-2 "><strong>Jungle-Rails</strong></h4>
+            <h6 className="description text-dark-emphasis p-2 ">Mini e-commerce application for buying and selling plants</h6>
+            <a href="https://github.com/Arshya-S/Jungle-Rails" target="_blank" rel="noopener noreferrer" className="btn btn-dark ms-2 p-2" >Github</a>
           </div>
         </div>
 
