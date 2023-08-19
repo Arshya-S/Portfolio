@@ -38,7 +38,7 @@ const Skills = (props) => {
         </div>
 
         <div className="skill-three container-fluid p-5">
-          <h3 className="row justify-content-center text-dark text-dark">Dev Tools</h3>
+          <h3 className="row justify-content-center text-dark text-dark">Developer Workflow</h3>
           <div className="container-fluid p-2 row justify-content-center">
             <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt=""/>
             <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" alt=""/>
